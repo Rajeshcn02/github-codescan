@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class UrlRedirect extends HttpServlet {
-    private static final String VALID_REDIRECT = "http://cwe.mitre.org/data/definitions/601.html";
+    private static final String VALID_REDIRECT = "https://cwe.mitre.org/data/definitions/601.html";
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
